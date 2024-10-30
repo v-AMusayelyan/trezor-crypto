@@ -32,15 +32,15 @@
 #include "bip32.h"
 #include "curves.h"
 #include "ecdsa.h"
-#include "ed25519-donna/ed25519-sha3.h"
-#include "ed25519-donna/ed25519.h"
+#include "ed25519.h"
+#include "ed25519-sha3.h"
 #include "hmac.h"
 #include "nist256p1.h"
 #include "secp256k1.h"
 #include "sha2.h"
 #include "sha3.h"
 #if USE_KECCAK
-#include "ed25519-donna/ed25519-keccak.h"
+#include "ed25519-keccak.h"
 #endif
 #if USE_NEM
 #include "nem.h"
